@@ -5,9 +5,8 @@ AS
 BEGIN
 SET NOCOUNT ON
  
-SELECT P.ProductID,P.ProductName,PD.ProductDescription  FROM 
-Product P
-INNER JOIN ProductDescription PD ON P.ProductName=PD.ProductDescription
+SELECT ProductID,ProductName  FROM 
+Product 
 
 
  
