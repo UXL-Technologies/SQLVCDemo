@@ -10,8 +10,8 @@ AS
 BEGIN
 SET NOCOUNT ON
  
-SELECT ProductID,ProductName  FROM 
-Product 
+SELECT P.ProductID,P.ProductName  FROM 
+Product P
 
 
  
