@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Stock] (
+  [StockID] [int] NULL,
+  [StockName] [varchar](100) NULL
+)
+ON [PRIMARY]
+GO
